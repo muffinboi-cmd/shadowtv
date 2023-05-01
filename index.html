@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Facts</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+    <div class="container">
+        <div class="header">
+            <h1>Movie Facts</h1>
+            <label class="switch">
+                <input type="checkbox" id="toggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="facts">
+            <h2>Did you know?</h2>
+            <p>In 1939, "Gone with the Wind" became the first movie to win more than five Academy Awards.</p>
+            <p>The first film with a $100 million budget was "True Lies" in 1994.</p>
+            <p>The highest-grossing movie of all time is "Avengers: Endgame" (2019), with a worldwide box office revenue of $2.798 billion.</p>
+            <p>The first color film was invented in 1902 by Edward Raymond Turner.</p>
+            <p>The first full-length animated film was "Snow White and the Seven Dwarfs" (1937).</p>
+            <p>The first movie ever made was "Roundhay Garden Scene" in 1888, which lasts just over 2 seconds.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
